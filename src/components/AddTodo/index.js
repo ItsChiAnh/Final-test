@@ -25,7 +25,7 @@ const AddTodo = ({handleAddTodo}) => {
       <input
         onChange={handleChangeTask}
         value={newTodo.task}
-        className="input_addtask"
+        className="input_addtodo"
         placeholder="add task"
         type="text"
       />

@@ -1,10 +1,10 @@
 .checkbox{
-    width: 22px;
-    height: 22px;
+    width: 23px;
+    height: 23px;
 }
 
 .task_todo{
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 600;
     margin-left: 5px;
 }
@@ -19,6 +19,6 @@
 }
 
 .btn--delete{
-    width: 27px;
-    height: 27px;
+    width: 26px;
+    height: 26px;
 }

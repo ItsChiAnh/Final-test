@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
@@ -6,7 +5,7 @@ import TodoList from "./components/TodoList";
 import Completed from "./Pages/Completed";
 import Active from "./Pages/Active";
 
-function App() {
+const App = () => {
   const [todos, setTodos] = useState(
     JSON.parse(localStorage.getItem("dataTodos")) || []
   );
