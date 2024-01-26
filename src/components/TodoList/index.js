@@ -1,4 +1,3 @@
-
 import AddTodo from "../AddTodo";
 import Todo from "../Todo"
 import "./style.css"

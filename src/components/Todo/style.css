@@ -3,7 +3,7 @@
     height: 22px;
 }
 
-.task__todo{
+.task_todo{
     font-size: 30px;
     font-weight: 600;
     margin-left: 5px;
@@ -11,7 +11,7 @@
 
 .finish{
     text-decoration: line-through;
-    color: gray;
+    color: #171212;
 }
 
 .delete{

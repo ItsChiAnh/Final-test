@@ -21,12 +21,12 @@ const AddTodo = ({handleAddTodo}) => {
 
 
     return (
-        <div className="tasklist__input">
+        <div className="tasklist-input">
       <input
         onChange={handleChangeTask}
         value={newTodo.task}
-        className="input__addtask"
-        placeholder="add details"
+        className="input_addtask"
+        placeholder="add task"
         type="text"
       />
       <button onClick={handleAddNewTodo} type="button" className="button btn--add">

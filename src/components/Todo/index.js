@@ -11,7 +11,7 @@ const Todo = ({todo , handleIsComplete}) => {
         className="button checkbox"
         type="checkbox"
       />
-      <span className={`task__todo ${isCompleted ? "finish" : ""}`}>
+      <span className={`task_todo ${isCompleted ? "finish" : ""}`}>
         {task}
       </span>
     </div>
